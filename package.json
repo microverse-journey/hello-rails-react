@@ -6,7 +6,8 @@
   "packageManager": "yarn@3.6.0",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "webpack": "^5.85.1"
   },
   "devDependencies": {
     "@babel/core": "^7.22.1",
