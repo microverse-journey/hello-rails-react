@@ -26,3 +26,42 @@ Processing by RootController#index as HTML
 Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2320)
 
 
+Started GET "/" for ::1 at 2023-06-06 14:32:20 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2076)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2317)
+
+
+Started GET "/" for ::1 at 2023-06-06 14:32:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 62.3ms | Allocations: 19679)
+Completed 200 OK in 69ms (Views: 64.0ms | ActiveRecord: 0.0ms | Allocations: 23534)
+
+
+Started GET "/" for ::1 at 2023-06-06 14:34:41 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 144.3ms | Allocations: 26087)
+Completed 200 OK in 149ms (Views: 145.6ms | ActiveRecord: 0.0ms | Allocations: 29941)
+
+
+Started GET "/" for ::1 at 2023-06-06 15:00:13 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 120.9ms | Allocations: 26204)
+Completed 200 OK in 128ms (Views: 122.6ms | ActiveRecord: 0.0ms | Allocations: 30054)
+
+
