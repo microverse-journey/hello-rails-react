@@ -121,3 +121,51 @@ Migrating to CreateGreetings (20230606145436)
   [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
   [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6835469566630085430)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-06-06 16:42:51 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 123.3ms | Allocations: 26550)
+Completed 200 OK in 130ms (Views: 124.9ms | ActiveRecord: 0.0ms | Allocations: 30398)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:50:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 114.9ms | Allocations: 24427)
+Completed 200 OK in 122ms (Views: 117.2ms | ActiveRecord: 0.0ms | Allocations: 28275)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:51:35 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 97.7ms | Allocations: 4818)
+Completed 200 OK in 99ms (Views: 98.1ms | ActiveRecord: 0.0ms | Allocations: 5060)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:52:04 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 41.5ms | Allocations: 24241)
+Completed 200 OK in 47ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 28089)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:53:36 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 91.2ms | Allocations: 4829)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms | Allocations: 5071)
+
+
