@@ -3,13 +3,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Greeting from './Greeting';
 
 function App(){
-    <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Greeting />} />
-        </Routes>
-      </Router>
-    </>
+    return (
+        <Router>
+            <Routes>
+            <Route path="/" element={<Greeting />} />
+            </Routes>
+        </Router>
+    )
 }
 
 export default App;
