@@ -1,0 +1,1298 @@
+Started GET "/" for ::1 at 2023-06-06 14:29:19 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 436)
+  Rendered layout layouts/application.html.erb (Duration: 167.2ms | Allocations: 68924)
+Completed 200 OK in 184ms (Views: 170.5ms | ActiveRecord: 0.0ms | Allocations: 75766)
+
+
+Started GET "/" for ::1 at 2023-06-06 14:29:29 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2094)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2337)
+
+
+Started GET "/" for ::1 at 2023-06-06 14:29:33 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2079)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2320)
+
+
+Started GET "/" for ::1 at 2023-06-06 14:32:20 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2076)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2317)
+
+
+Started GET "/" for ::1 at 2023-06-06 14:32:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 62.3ms | Allocations: 19679)
+Completed 200 OK in 69ms (Views: 64.0ms | ActiveRecord: 0.0ms | Allocations: 23534)
+
+
+Started GET "/" for ::1 at 2023-06-06 14:34:41 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 292)
+  Rendered layout layouts/application.html.erb (Duration: 144.3ms | Allocations: 26087)
+Completed 200 OK in 149ms (Views: 145.6ms | ActiveRecord: 0.0ms | Allocations: 29941)
+
+
+Started GET "/" for ::1 at 2023-06-06 15:00:13 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 120.9ms | Allocations: 26204)
+Completed 200 OK in 128ms (Views: 122.6ms | ActiveRecord: 0.0ms | Allocations: 30054)
+
+
+Started GET "/" for ::1 at 2023-06-06 15:31:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 61.8ms | Allocations: 21194)
+Completed 200 OK in 73ms (Views: 64.6ms | ActiveRecord: 0.0ms | Allocations: 25042)
+
+
+Started GET "/" for ::1 at 2023-06-06 15:32:13 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 95.2ms | Allocations: 5046)
+Completed 200 OK in 96ms (Views: 95.8ms | ActiveRecord: 0.0ms | Allocations: 5288)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (2.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (5016.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hello_rails_react_development"[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Pluck (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (51.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hello_rails_react_development"[0m
+  [1m[35m (60.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "hello_rails_react_test"[0m
+  [1m[35m (132.0ms)[0m  [1m[35mCREATE DATABASE "hello_rails_react_development" ENCODING = 'unicode'[0m
+  [1m[35m (27.1ms)[0m  [1m[35mCREATE DATABASE "hello_rails_react_test" ENCODING = 'unicode'[0m
+  [1m[35m (12.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (6.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6835469566630085430)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-06-06 14:52:04.315459"], ["updated_at", "2023-06-06 14:52:04.315459"]]
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(6835469566630085430)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6835469566630085430)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateGreetings (20230606145436)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE "greetings" ("id" bigserial primary key, "message" text, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230606145436"]]
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6835469566630085430)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2023-06-06 16:42:51 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 123.3ms | Allocations: 26550)
+Completed 200 OK in 130ms (Views: 124.9ms | ActiveRecord: 0.0ms | Allocations: 30398)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:50:40 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 114.9ms | Allocations: 24427)
+Completed 200 OK in 122ms (Views: 117.2ms | ActiveRecord: 0.0ms | Allocations: 28275)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:51:35 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 97.7ms | Allocations: 4818)
+Completed 200 OK in 99ms (Views: 98.1ms | ActiveRecord: 0.0ms | Allocations: 5060)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:52:04 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 41.5ms | Allocations: 24241)
+Completed 200 OK in 47ms (Views: 42.9ms | ActiveRecord: 0.0ms | Allocations: 28089)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:53:36 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 91.2ms | Allocations: 4829)
+Completed 200 OK in 92ms (Views: 91.6ms | ActiveRecord: 0.0ms | Allocations: 5071)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:56:44 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 142.5ms | Allocations: 4786)
+Completed 200 OK in 144ms (Views: 143.8ms | ActiveRecord: 0.0ms | Allocations: 5026)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:56:46 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2107)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 2347)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:57:53 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2161)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2401)
+
+
+Started GET "/" for ::1 at 2023-06-06 16:57:55 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2109)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2346)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:25:14 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 47.4ms | Allocations: 24254)
+Completed 200 OK in 53ms (Views: 49.0ms | ActiveRecord: 0.0ms | Allocations: 28102)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:25:17 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2118)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2360)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:28:37 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 92.8ms | Allocations: 4802)
+Completed 200 OK in 94ms (Views: 93.5ms | ActiveRecord: 0.0ms | Allocations: 5042)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:28:40 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2116)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 2356)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:29:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 110.6ms | Allocations: 24857)
+Completed 200 OK in 116ms (Views: 112.2ms | ActiveRecord: 0.0ms | Allocations: 28705)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:29:04 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2109)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2351)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-2c10cf02bfbaa5b376934b41d7dc27676a943a360893da4f92e0c43339da3a87.map"):
+  
+Started GET "/" for ::1 at 2023-06-06 17:29:22 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2111)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2352)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-2c10cf02bfbaa5b376934b41d7dc27676a943a360893da4f92e0c43339da3a87.map"):
+  
+Started GET "/" for ::1 at 2023-06-06 17:32:32 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 93.7ms | Allocations: 4827)
+Completed 200 OK in 94ms (Views: 94.2ms | ActiveRecord: 0.0ms | Allocations: 5065)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:32:35 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2097)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2334)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:32:48 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 49.7ms | Allocations: 24724)
+Completed 200 OK in 54ms (Views: 51.1ms | ActiveRecord: 0.0ms | Allocations: 28572)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:34:39 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2109)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2351)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:35:19 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2101)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2341)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:35:47 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 93.3ms | Allocations: 4791)
+Completed 200 OK in 94ms (Views: 93.8ms | ActiveRecord: 0.0ms | Allocations: 5028)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:36:14 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2142)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 2382)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-f7aa51f974d4192a19883ce1329819a201607acc7cd2a146178e864d3898506d.map"):
+  
+Started GET "/" for ::1 at 2023-06-06 17:36:26 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 107.9ms | Allocations: 4803)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.0ms | Allocations: 5042)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:36:29 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 103.5ms | Allocations: 4780)
+Completed 200 OK in 104ms (Views: 103.9ms | ActiveRecord: 0.0ms | Allocations: 5017)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:36:40 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2109)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2346)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:36:43 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2181)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2418)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-231cc65b24e30ccb60bfcab0935761a25162c443a365b2528bcb3909973d3938.map"):
+  
+Started GET "/" for ::1 at 2023-06-06 17:36:50 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2146)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2384)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/application.js-231cc65b24e30ccb60bfcab0935761a25162c443a365b2528bcb3909973d3938.map"):
+  
+Started GET "/" for ::1 at 2023-06-06 17:36:52 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 93.5ms | Allocations: 4812)
+Completed 200 OK in 94ms (Views: 93.9ms | ActiveRecord: 0.0ms | Allocations: 5050)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:37:37 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 139.3ms | Allocations: 4796)
+Completed 200 OK in 140ms (Views: 140.1ms | ActiveRecord: 0.0ms | Allocations: 5034)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:37:51 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2106)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2343)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:37:54 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 122.6ms | Allocations: 4808)
+Completed 200 OK in 123ms (Views: 122.9ms | ActiveRecord: 0.0ms | Allocations: 5045)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:50:54 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2154)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 2391)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:50:58 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2100)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 2337)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:01 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2100)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 2337)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:03 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2091)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 2328)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:17 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 51.6ms | Allocations: 25109)
+Completed 200 OK in 57ms (Views: 53.3ms | ActiveRecord: 0.0ms | Allocations: 28957)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:19 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2118)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2360)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:22 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2088)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2325)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:24 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2094)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:45 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2104)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2344)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:47 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2116)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2356)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:50 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2122)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2362)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:51:51 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2100)
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2337)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:08 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 19901)
+Completed 200 OK in 49ms (Views: 44.9ms | ActiveRecord: 0.0ms | Allocations: 23749)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:12 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2109)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2351)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:15 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2116)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2356)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:16 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2107)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 2347)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:18 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2104)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2344)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:19 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2112)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2349)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:20 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2106)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 2343)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:21 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2094)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:22 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2100)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2337)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:23 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2145)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2382)
+
+
+Started GET "/" for ::1 at 2023-06-06 17:52:24 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2115)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2352)
+
+
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (1.2ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Good morning!"], ["created_at", "2023-06-06 20:55:45.195036"], ["updated_at", "2023-06-06 20:55:45.195036"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.2ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Good afternoon!"], ["created_at", "2023-06-06 20:55:54.654331"], ["updated_at", "2023-06-06 20:55:54.654331"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.2ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Good evening!"], ["created_at", "2023-06-06 20:56:01.718969"], ["updated_at", "2023-06-06 20:56:01.718969"]]
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.2ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Good night!"], ["created_at", "2023-06-06 20:56:07.349910"], ["updated_at", "2023-06-06 20:56:07.349910"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mGreeting Create (0.2ms)[0m  [1m[32mINSERT INTO "greetings" ("message", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["message", "Good day!"], ["created_at", "2023-06-06 20:56:14.278030"], ["updated_at", "2023-06-06 20:56:14.278030"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2023-06-06 21:59:32 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2122)
+Completed 200 OK in 4ms (Views: 4.1ms | Allocations: 2360)
+
+
+Started GET "/" for ::1 at 2023-06-06 21:59:55 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 19938)
+Completed 200 OK in 43ms (Views: 40.0ms | ActiveRecord: 0.0ms | Allocations: 23786)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:00:03 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2133)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2375)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:00:05 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2119)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2359)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:00:06 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2106)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 2343)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:00:07 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2107)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2344)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:00:09 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2094)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:00:13 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2095)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2335)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:00:16 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2103)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2340)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:00:17 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2103)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2340)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:02:29 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 20197)
+Completed 200 OK in 47ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 24045)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:08:19 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2118)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2360)
+
+
+Started GET "/" for ::1 at 2023-06-06 22:08:21 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2115)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2352)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:19:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 29.6ms | Allocations: 19871)
+Completed 200 OK in 49ms (Views: 44.2ms | ActiveRecord: 0.0ms | Allocations: 23719)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:22:12 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 35.8ms | Allocations: 20044)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.0ms | Allocations: 23892)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:22:29 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2115)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2357)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:22:32 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2088)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2325)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:22:37 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2098)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2338)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:31:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 191.2ms | Allocations: 27652)
+Completed 200 OK in 197ms (Views: 192.8ms | ActiveRecord: 0.0ms | Allocations: 31500)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:37:36 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 161.5ms | Allocations: 4785)
+Completed 200 OK in 162ms (Views: 162.0ms | Allocations: 5027)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:38:52 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 181.8ms | Allocations: 27215)
+Completed 200 OK in 201ms (Views: 184.1ms | ActiveRecord: 0.0ms | Allocations: 31064)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:38:52 +0100
+  
+Zeitwerk::NameError (expected file /home/mrprotocoll/microverse/projects/rails/hello-rails-react/app/controllers/api/greetings_controller.rb to define constant Api::GreetingsController, but didn't):
+  
+zeitwerk (2.6.8) lib/zeitwerk/loader/callbacks.rb:25:in `on_file_autoloaded'
+zeitwerk (2.6.8) lib/zeitwerk/kernel.rb:31:in `require'
+activesupport (7.0.5) lib/active_support/inflector/methods.rb:280:in `const_get'
+activesupport (7.0.5) lib/active_support/inflector/methods.rb:280:in `constantize'
+activesupport (7.0.5) lib/active_support/core_ext/string/inflections.rb:74:in `constantize'
+actionpack (7.0.5) lib/action_dispatch/http/request.rb:90:in `controller_class_for'
+actionpack (7.0.5) lib/action_dispatch/request/utils.rb:95:in `action_encoding_template'
+actionpack (7.0.5) lib/action_dispatch/request/utils.rb:83:in `encode'
+actionpack (7.0.5) lib/action_dispatch/request/utils.rb:45:in `set_binary_encoding'
+actionpack (7.0.5) lib/action_dispatch/http/parameters.rb:68:in `path_parameters='
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.5) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.5) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.7) lib/rack/etag.rb:27:in `call'
+rack (2.2.7) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.7) lib/rack/head.rb:12:in `call'
+actionpack (7.0.5) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.5) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.7) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.7) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.5) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.5) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.5) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.5) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.5) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.5) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.7) lib/rack/method_override.rb:24:in `call'
+rack (2.2.7) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.5) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.7) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.5) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.5) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2023-06-07 06:39:53 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2208)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2710)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:39:53 +0100
+  
+NameError (uninitialized constant API):
+  
+app/controllers/api/greetings_controller.rb:1:in `<main>'
+Started GET "/" for ::1 at 2023-06-07 06:40:05 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 2220)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2720)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:40:05 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (1.6ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 6.4ms | Allocations: 7043)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:40:10 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2120)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 2358)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:40:10 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:40:15 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2100)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 2337)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:40:15 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 669)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:40:17 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2091)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2328)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:40:17 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 666)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:41:08 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2107)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2344)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:41:09 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:43:18 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 155.2ms | Allocations: 4771)
+Completed 200 OK in 156ms (Views: 155.6ms | ActiveRecord: 0.0ms | Allocations: 5008)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:43:19 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:43:23 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2094)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:43:23 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:07 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 160.3ms | Allocations: 4791)
+Completed 200 OK in 161ms (Views: 160.8ms | ActiveRecord: 0.0ms | Allocations: 5028)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:07 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:07 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:07 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:08 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:08 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:08 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:17 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2114)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2352)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:18 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:18 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 666)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:18 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:22 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2116)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 2353)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:22 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:22 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:22 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:33 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2091)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2328)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:33 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:34 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:34 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:34 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:34 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.3ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:34 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:34 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:34 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:36 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2176)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2413)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:37 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:40 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 2094)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 2331)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:40 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:42 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2124)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2362)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:42 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:43 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2140)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2378)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:43 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.1ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.1ms | Allocations: 657)
+
+
+Started GET "/" for ::1 at 2023-06-07 06:44:45 +0100
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2097)
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 2334)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 06:44:45 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.2ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 657)
+
+

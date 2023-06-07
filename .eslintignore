@@ -1,0 +1,5 @@
+# Ignore a specific file
+# path/to/file.js
+
+# Ignore all files in a directory
+app/assets/builds/*
