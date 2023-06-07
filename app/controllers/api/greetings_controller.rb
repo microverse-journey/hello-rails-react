@@ -1,4 +1,4 @@
-class GreetingsController < ApplicationController
+class Api::GreetingsController < ApplicationController
   def index
     @greetings = Greeting.find(rand(1..5))
 
