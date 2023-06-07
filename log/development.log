@@ -1296,3 +1296,20 @@ Processing by Api::GreetingsController#index as */*
 Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms | Allocations: 657)
 
 
+Started GET "/" for ::1 at 2023-06-07 07:34:04 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by RootController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 294)
+  Rendered layout layouts/application.html.erb (Duration: 87.7ms | Allocations: 25402)
+Completed 200 OK in 95ms (Views: 89.4ms | ActiveRecord: 0.0ms | Allocations: 29250)
+
+
+Started GET "/api/greetings" for ::1 at 2023-06-07 07:34:04 +0100
+Processing by Api::GreetingsController#index as */*
+  [1m[36mGreeting Load (0.3ms)[0m  [1m[34mSELECT "greetings".* FROM "greetings" WHERE "greetings"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/greetings_controller.rb:3:in `index'
+Completed 200 OK in 20ms (Views: 1.1ms | ActiveRecord: 5.1ms | Allocations: 7650)
+
+
